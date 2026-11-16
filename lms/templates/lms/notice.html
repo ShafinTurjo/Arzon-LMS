@@ -1,0 +1,1 @@
+{% extends 'lms/base.html' %}{% block content %}<article class="panel form-panel"><span class="pill">{{ notice.batch }}</span><h2>{{ notice.title }}</h2><p class="muted">{{ notice.created_at }}</p><div class="prose">{{ notice.body|linebreaks }}</div></article>{% endblock %}
